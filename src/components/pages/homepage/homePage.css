@@ -321,7 +321,7 @@ ul {
             height: 300px;         }
       }
 
-      /* .headshot::after {
+      .headshot::after {
         content: "";
         width: 200px;
         height: 200px;
@@ -347,7 +347,7 @@ ul {
             width: 310px;
             height: 310px; 
         }
-      } */
+      }
 
      
 
