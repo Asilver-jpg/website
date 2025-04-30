@@ -297,58 +297,70 @@ ul {
      
      }
   }
-  .headhshotWrapper{
-    display:flex;
+  .headshotWrapper {
+    display: flex;
     justify-content: center;
+    position: relative; /* Ensure the wrapper is positioned correctly */
   }
-
-  .headshot
-    {
-        position: relative;
-      }
-
-      .headshot img {
-        width: 190px;
-        height: 190px;
-        border-radius: 50%;
-        @media(min-width:576px){
-            width: 200px;
-        height: 200px; 
-        }
-        @media(min-width:820px){
-          margin-top:-1rem;
-            width: 300px;
-            height: 300px;         }
-      }
-
-      .headshot::after {
-        content: "";
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        background: linear-gradient(
-          90deg,
-          rgb(34, 183, 0) 0%,
-          rgb(11, 211, 221) 100%,
-          rgb(0, 255, 149) 100%
-        );
-        display: block;
-        position: absolute;
-        top: -5px;
-        left: -5px;
-        z-index: -1;
-        @media(min-width:576px){
-            width: 210px;
-            height: 210px; 
-        }
-        @media(min-width:820px){
-          margin-top:-1rem;
-
-            width: 310px;
-            height: 310px; 
-        }
-      }
-
+  
+  .headshot {
+    position: relative;
+  }
+  
+  .headshot img {
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+  }
+  
+  @media (min-width: 576px) {
+    .headshot img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  
+  @media (min-width: 820px) {
+    .headshot img {
+      margin-top: -1rem;
+      width: 300px;
+      height: 300px;
+    }
+  }
+  
+  .headshot::after {
+    content: "";
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(
+      90deg,
+      rgb(34, 183, 0) 0%,
+      rgb(11, 211, 221) 100%,
+      rgb(0, 255, 149) 100%
+    );
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    z-index: -1;
+  }
+  
+  @media (min-width: 576px) {
+    .headshot::after {
+      width: 210px;
+      height: 210px;
+    }
+  }
+  
+  @media (min-width: 820px) {
+    .headshot::after {
+      margin-top: -1rem;
+      width: 310px;
+      height: 310px;
+    }
+  }
+  
      
 
       .descriptionTextWrapper{

@@ -119,7 +119,7 @@ export function HomePage(){
                                 </div>
                             </div>
                             <div className='descriptionContainer'>
-                                <div className='headhshotWrapper'>
+                                <div className='headshotWrapper'>
                                     <div className='headshot'>
                                         <img src='/assets/images/headshot.jpg'/>
                                     </div>
