@@ -119,7 +119,10 @@ export function HomePage(){
                             <div className='descriptionContainer'>
                                 <div className='headshotWrapper'>
                                     <div className='headshot'>
-                                        <img src='/assets/images/headshot.jpg'/>
+                                        <img id="head" src='/assets/images/headshot.jpg'/>
+                                        <div className="smile"></div>
+                                        <div className='leftEye'/>
+                                        <div className='rightEye'/>
                                     </div>
 
                                 </div>
