@@ -1,0 +1,66 @@
+
+.exhibitSection{
+    width:15rem;
+    margin-bottom:5rem;
+
+}
+
+.exhibitTitle{
+    font-weight: bold;
+    line-height: 2rem;
+    width:30rem;
+    font-size: 1.6rem;
+    @media(max-width:376px){
+        font-size:1.4rem;
+      }
+    @media(min-width:1200px){
+        font-size:2rem;
+        width:40rem;
+    }
+
+}
+
+.exhibitText{
+    margin-top: -.5rem;
+     width:15rem;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    white-space: pre-wrap;
+   
+
+  
+}
+
+@media (min-width: 490px){
+    .exhibitText{
+        width:23rem
+    }
+}
+
+@media (min-width: 760px){
+    .exhibitText{
+        width:30rem
+    }
+  }
+
+  @media (min-width: 900px){
+    .exhibitText{
+        width: 34rem
+    }
+    .exhibitText{
+       width: 50rem;
+        margin-bottom: 3rem;
+      
+    }
+    
+  }
+
+  @media(min-width:1200px){
+    .exhibitText{
+        width: 60rem;
+        font-size: 1.2rem;
+    }
+
+}
+
+  

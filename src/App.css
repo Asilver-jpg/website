@@ -1,0 +1,20 @@
+#root {
+  font-size: 17px;
+  width: 100vw;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  --light-grey-0: #ffffff;
+
+  --light-grey-1: #f2f2f2;
+  --light-grey-2: #e8e8e8;
+  --grey: #A9A9A9;
+  --green: #28a428;
+  --light-green:#31b131;
+  --black: #213547;
+  --complement:#59cf59
+}
+
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

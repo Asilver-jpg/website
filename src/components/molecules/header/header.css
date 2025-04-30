@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .9rem;
+    @media (min-width: 576px){    
+        padding: .5rem;
+    margin-top: 1rem;
+    margin-bottom: .3rem;
+    }
+    
+}
+

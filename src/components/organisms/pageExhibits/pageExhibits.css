@@ -1,0 +1,20 @@
+.pageContent{
+    margin-left: 3rem;
+    @media (min-width: 576px){
+    
+        margin-left: 6rem;
+        display:block
+        
+    }
+
+  
+}
+
+.pageTitle{
+    font-size: 3rem;
+    @media (min-width: 1200px){
+        
+       font-size:4rem;
+        
+    }
+}

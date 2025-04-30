@@ -1,0 +1,8 @@
+.homeNav{
+    width:100%;
+    display:flex;
+    justify-content: center;
+    @media (min-width: 576px){
+        margin-bottom: 6rem
+    }
+}

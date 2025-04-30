@@ -1,0 +1,152 @@
+.linkImageWrapper{
+
+
+}
+
+.linkImages{
+
+}
+
+.linkImages img{
+    width: 19rem;
+    height:9rem;
+    margin-bottom: 1rem;
+	@media (min-width:540px){
+        width:28rem;
+        height: auto;
+    };
+    @media (min-width:576px){
+        width:30rem;
+        height: auto;
+    };
+	@media (min-width:900px){
+        width:45rem;
+        height: auto;
+    };
+    @media (min-width:1000px){
+        width:50rem;
+        height: auto;
+    }
+
+}
+
+.link{
+    margin-left:-1rem;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	background: var(--bg);
+
+	&:nth-child(1) {
+		--btn-bg: #da0000;
+	}
+	&:nth-child(2) {
+		--btn-bg: #cdcdcd;
+	}
+}
+
+.text,
+	.icon-container {
+		position: relative;
+		z-index: 2;
+	}
+
+
+	.link button{
+		filter: drop-shadow(6px 6px 8px gray);
+	
+	}
+button {
+	
+	--width: 12rem;
+	--height: 3.5rem;
+	max-width: 192px ;
+	max-height:56px;
+	font-size:13.333px;
+    background: var(--green);
+	border: 0;
+	position: relative;
+	min-width: var(--width);
+	min-height: var(--height);
+	border-radius: var(--height);
+	color: #fff;
+	cursor: pointer;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 1rem;
+	.text,
+	.icon-container {
+		position: relative;
+		z-index: 2;
+        color: var(--black);
+        font-weight: bold;
+	}
+	.linkText{
+		font-size:13px;
+	}
+
+	.icon-container {
+		--icon-size: 2rem;
+		position: relative;
+		width: var(--icon-size);
+		height: var(--icon-size);
+		margin-left: 2rem;
+		transition: transform 500ms ease;
+
+		.icon {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: var(--icon-size);
+			height: var(--icon-size);
+			transition: transform 500ms ease, opacity 250ms ease;
+
+
+			svg {
+				width: 100%;
+				height: 100%;
+				fill: var(--black);
+			}
+		}
+	}
+
+	&::after {
+		content: "";
+		position: absolute;
+		top:0px;
+        left:0px;
+        z-index:1;
+		width: 100%;
+		height: 100%;
+		background: var(--btn-bg);
+		border-radius: var(--height);
+		transition: transform 500ms ease;
+	}
+    &:hover >a{
+        color:white
+    }
+	&:hover {
+		&::after {
+			transform: translateX(65%);
+		}
+
+		.icon-container {
+			transform: translateX(125%);
+			.icon {
+				&--left {
+					transform: translateX(0);
+					opacity: 1;
+				}
+				&--right {
+					transform: translateX(200%);
+					opacity: 0;
+				}
+			}
+		}
+	}
+}
+

@@ -1,0 +1,15 @@
+.orderedList{
+    width: 20rem;
+    @media (min-width: 576px){
+        width: 24rem
+    };
+    @media(min-width:700px){
+        width:30rem;
+    };
+    @media(min-width:900px){
+        width:35rem;
+    };
+    @media(min-width:1000px){
+        width:40rem;
+    };
+}

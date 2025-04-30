@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/embedded/hackableFiles/build/static/css/main.861048aa.css",
+    "main.js": "/embedded/hackableFiles/build/static/js/main.92e2a5bb.js",
+    "reactPlayerYouTube.js": "/embedded/hackableFiles/build/static/js/reactPlayerYouTube.6ade2de1.chunk.js",
+    "reactPlayerSoundCloud.js": "/embedded/hackableFiles/build/static/js/reactPlayerSoundCloud.4efa38e0.chunk.js",
+    "reactPlayerVimeo.js": "/embedded/hackableFiles/build/static/js/reactPlayerVimeo.c25cfd6a.chunk.js",
+    "reactPlayerFacebook.js": "/embedded/hackableFiles/build/static/js/reactPlayerFacebook.dad578e9.chunk.js",
+    "reactPlayerStreamable.js": "/embedded/hackableFiles/build/static/js/reactPlayerStreamable.6b3e9408.chunk.js",
+    "reactPlayerWistia.js": "/embedded/hackableFiles/build/static/js/reactPlayerWistia.f6e81db8.chunk.js",
+    "reactPlayerTwitch.js": "/embedded/hackableFiles/build/static/js/reactPlayerTwitch.e3043e6c.chunk.js",
+    "reactPlayerDailyMotion.js": "/embedded/hackableFiles/build/static/js/reactPlayerDailyMotion.7dbdc158.chunk.js",
+    "reactPlayerMixcloud.js": "/embedded/hackableFiles/build/static/js/reactPlayerMixcloud.b49cdafb.chunk.js",
+    "reactPlayerVidyard.js": "/embedded/hackableFiles/build/static/js/reactPlayerVidyard.72cdd1c6.chunk.js",
+    "reactPlayerKaltura.js": "/embedded/hackableFiles/build/static/js/reactPlayerKaltura.aa6ac602.chunk.js",
+    "reactPlayerFilePlayer.js": "/embedded/hackableFiles/build/static/js/reactPlayerFilePlayer.8ee87dba.chunk.js",
+    "reactPlayerPreview.js": "/embedded/hackableFiles/build/static/js/reactPlayerPreview.1bc6e5f6.chunk.js",
+    "static/js/787.62f8bd99.chunk.js": "/embedded/hackableFiles/build/static/js/787.62f8bd99.chunk.js",
+    "index.html": "/embedded/hackableFiles/build/index.html",
+    "main.861048aa.css.map": "/embedded/hackableFiles/build/static/css/main.861048aa.css.map",
+    "main.92e2a5bb.js.map": "/embedded/hackableFiles/build/static/js/main.92e2a5bb.js.map",
+    "reactPlayerYouTube.6ade2de1.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerYouTube.6ade2de1.chunk.js.map",
+    "reactPlayerSoundCloud.4efa38e0.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerSoundCloud.4efa38e0.chunk.js.map",
+    "reactPlayerVimeo.c25cfd6a.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerVimeo.c25cfd6a.chunk.js.map",
+    "reactPlayerFacebook.dad578e9.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerFacebook.dad578e9.chunk.js.map",
+    "reactPlayerStreamable.6b3e9408.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerStreamable.6b3e9408.chunk.js.map",
+    "reactPlayerWistia.f6e81db8.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerWistia.f6e81db8.chunk.js.map",
+    "reactPlayerTwitch.e3043e6c.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerTwitch.e3043e6c.chunk.js.map",
+    "reactPlayerDailyMotion.7dbdc158.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerDailyMotion.7dbdc158.chunk.js.map",
+    "reactPlayerMixcloud.b49cdafb.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerMixcloud.b49cdafb.chunk.js.map",
+    "reactPlayerVidyard.72cdd1c6.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerVidyard.72cdd1c6.chunk.js.map",
+    "reactPlayerKaltura.aa6ac602.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerKaltura.aa6ac602.chunk.js.map",
+    "reactPlayerFilePlayer.8ee87dba.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerFilePlayer.8ee87dba.chunk.js.map",
+    "reactPlayerPreview.1bc6e5f6.chunk.js.map": "/embedded/hackableFiles/build/static/js/reactPlayerPreview.1bc6e5f6.chunk.js.map",
+    "787.62f8bd99.chunk.js.map": "/embedded/hackableFiles/build/static/js/787.62f8bd99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.861048aa.css",
+    "static/js/main.92e2a5bb.js"
+  ]
+}
