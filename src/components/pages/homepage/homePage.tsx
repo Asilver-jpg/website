@@ -234,9 +234,10 @@ export function HomePage(){
                         <p><a href="https://www.linkedin.com/in/alex-silver-139842155/">LinkedIn</a></p>
                         <p>Email: Asilver7493@gmail.com</p>
                         <p>{`Phone: +1 (914)-552-8909`}</p>
-                        <p>
+                        <p className='download'>
     
-                            <a href='/ALEXANDER SILVER Resume  FE.pdff' download>Download Resume</a>
+                            <a href='/ALEXANDER SILVER Resume  FE.pdf' download>Download Resume</a>
+                            <img  className="downloadImg" src='/assets/images/download.webp'/>
                             </p>
                     </div>
                 </div>

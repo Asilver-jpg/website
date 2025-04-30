@@ -941,3 +941,20 @@ height:29rem;
   .findMe p{
     color:white
   }
+
+  .download{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    gap:1rem;
+  }
+
+  .downloadImg{
+    width:30px;
+    margin-top:-1rem;
+    @media(min-width:1700px){
+      width:40px;
+      margin-top:-1.4rem;
+
+      }
+  }
