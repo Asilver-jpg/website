@@ -99,5 +99,8 @@
       :nth-child(3) {
         transform: rotate(0)
       }
+      @media (min-width: 576px){
+        display:none
+    }
     
 }

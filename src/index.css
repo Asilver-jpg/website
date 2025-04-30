@@ -38,7 +38,35 @@ h1 {
 }
 @font-face {
   font-family: 'Raleway';
-  src: local('Raleway'), url(/fonts/raleway.regular.ttf) format('ttf');
+  src: local('Raleway'), url(/fonts/raleway.regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway-Bold';
+  src: local('Raleway-Bold'), url(/fonts/Raleway-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Raleway-Variable';
+  src: local('Raleway-Variable'), url(/fonts/Raleway-Variable.ttf) format('truetype');
+  font-style:normal;
+  font-weight:500;
+}
+
+@font-face {
+  font-family: 'Inconsolata-light';
+  src: local('Inconsolata-light'), url(/fonts/Inconsolata-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inconsolata-medium';
+  src: local('Inconsolata-medium'), url(/fonts/Inconsolata_Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inconsolata-regular';
+  src: local('Inconsolata-regular'), url(/fonts/Inconsolata_Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Inconsolata-semi';
+  src: local('Inconsolata-semi'), url(/fonts/Inconsolata_SemiBold.ttf) format('truetype');
 }
 
 @font-face {

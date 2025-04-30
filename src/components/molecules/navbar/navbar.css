@@ -35,18 +35,55 @@
     transition: transform .3s ease-in-out;
     transform: translateX(-110%);
     z-index: 1;
+    margin-bottom: 1rem;
     filter: drop-shadow(6px 6px 8px gray);
+    @media (min-width: 576px){
+        width: 90%;
+        position: relative;
+        flex-direction: row;
+        height: 4rem;
+        top:40px;
+        top:70px;
+        transform: translateX(0);
+        transition: transform 0s;
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+      @media (min-width: 576px){
+        width: 90%;
+        position: relative;
+        flex-direction: row;
+        height: 4rem;
+        top:40px;
+        top:70px;
+        transform: translateX(0);
+        transition: transform 0s;
+        display:flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
 
 
 }
 
 .burgerOn .Animation{
     border-top-right-radius: 1rem;
+    @media(min-width:576px ){
+        border-top-right-radius: 0px;
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
 
 }
 
 .burgerOn .Video{
     border-bottom-right-radius: 1rem;
+    @media(min-width:576px ){
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
 
 }
 

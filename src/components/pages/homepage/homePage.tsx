@@ -99,11 +99,9 @@ export function HomePage(){
                             <div className='whiteSectionContent'>
 
                             <div className='nameSection'>
-                                <h2>My name is Alex Silver</h2>
+                                <h2>Alex Silver</h2>
                                 <div className='scrollingContainer'>
-                                <h2 className="scrollingText">
-                                    I'm a
-                                </h2>
+                              
                                 <div className='scrollingBox'>
                                     <ul>
                                         
@@ -129,10 +127,7 @@ export function HomePage(){
                             </div>
                             </div>
                   </div>
-                  <div className='descriptionTextWrapper'>
-
-
-</div>
+             
                   <div className="area">
                 <ul className="circles">
                     <li></li>
@@ -150,9 +145,12 @@ export function HomePage(){
 
 
             <div className='bioContainer'>
+                <div className='descTextWrapper'>
+
                 <p className='descText'>
-                As a Software Engineer based in Astoria, NY, I’m driven by a deep love for crafting experiences that feel as intuitive as they are impactful. I thrive at the intersection of creativity and code—bringing ideas to life from the ground up, whether through thoughtful frontend design or robust backend architecture. Every project is a chance to blend technical precision with human-centered thinking, and I bring my full skill set to every step of the journey.
+                    Software Engineer in Astoria, NY blending creativity and code to build intuitive, impactful experiences—from polished frontends to robust backends, always with a human-centered approach.                
                     </p>
+                    </div>
                 <GoogleMapEmbed/>
             </div>
                 
