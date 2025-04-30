@@ -876,6 +876,10 @@ height:29rem;
     background-color: var(--green); /* Color of the line */
     transform: translateX(-50%); /* Center the line */
     z-index: 0; /* Position the line behind the 'V' */
+    @media(min-width:700px){
+      width: .2rem; /* Width of the vertical line */
+      height: .7rem; 
+    }
 
   }
   
