@@ -893,11 +893,11 @@ height:29rem;
       top:75rem;
     }
     @media(min-width:700px){
-      top:76rem;
+      top:78rem;
     }
     
       @media(min-width:800px){
-      top:80rem;
+      top:83rem;
 
       }
       @media(min-width:1000px){
@@ -939,14 +939,20 @@ height:29rem;
   }
 
   .findMe p{
-    color:white
+    color:white;
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif
+  }
+
+  .findMe p:hover a{
+    color:black;
+    text-decoration: underline;
   }
 
   .download{
     display:flex;
     align-content: center;
     justify-content: center;
-    gap:1rem;
+    gap:.7rem;
   }
 
   .downloadImg{
