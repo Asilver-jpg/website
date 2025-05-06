@@ -950,9 +950,13 @@ height:30rem;
     background-color: var(--complement);
     top:80rem;
     @media(min-width:300px){
-      top:75rem;
+      top: 83rem;
     }
-    @media(min-width:576px){
+
+    @media(min-width:372px){
+      top: 79rem;
+    }
+    @media(min-width:590px){
       top:91rem;
     }
     @media(min-width:700px){
