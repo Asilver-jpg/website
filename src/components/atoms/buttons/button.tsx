@@ -1,6 +1,6 @@
 import { ReactElement, useEffect, useState } from "react";
 import './button.css'
-import { NavLink } from "react-router";
+import {  useNavigate } from "react-router";
 
 export interface ButtonProps {
     text: string
@@ -28,9 +28,21 @@ export function Button({ text, destination, type, active=false }: ButtonProps): 
             }
         }
     },[isFocused, text, type])
+
+    const navigate = useNavigate()
+
+    const handleClick = () =>{
+        navigate(destination)
+    }
     
     
-    return (<div className= {`${type} ${activeClass} ${active ? "active" : ""}`} onMouseEnter={() =>setIsFocused(true)} onMouseLeave={()=>setIsFocused(false)}>
-        <NavLink  aria-label={type === 'home' ? 'home' : destination} to={destination}>{<span>{text}</span>}</NavLink>
+    return (<div className= {`${type} ${activeClass} ${active ? "active" : ""}`}
+                 onMouseEnter={() =>setIsFocused(true)} 
+                 onMouseLeave={()=>setIsFocused(false)}
+                 role='link'
+                 tabIndex={0}
+                 onClick={handleClick}
+                 onKeyDown={(e)=>{ if (e.key === 'Enter' || e.key === ' ') handleClick();}}>
+       {<span>{text}</span>}
         </div>)
 }

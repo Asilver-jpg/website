@@ -22,7 +22,7 @@
 
 
 
-.nav >a{
+.nav >span{
     text-decoration: none;
     color: var(--black);
     font-weight: bold;
@@ -32,7 +32,7 @@
 .nav:not(.active):hover > a {
     color: var(--light-green)
 }
-.active >a{ 
+.active >span{ 
     color: white;
 }
 
@@ -48,6 +48,7 @@
     background: none;
     font-family: "Raleway", arial, sans-serif; 
     font-size: 3rem; 
+    margin-left:1rem;
     @media(min-width:400px){
         margin-top:.8rem;
     }
@@ -56,7 +57,7 @@
     }
 }
 
-.home >a{
+.home >span{
     color: var(--black);
    
 
@@ -69,7 +70,7 @@
     }
 }
 
-.scroll >a {
+.scroll >span {
     color: --var(black);
     text-shadow: 0 20px 25px --var(black), 0 40px 60px --var(black);
     text-decoration: none;

@@ -6,13 +6,13 @@ interface OrderedListProps{
 
 export function OrderedList({list}:OrderedListProps){
 return(
-    <ol className = 'orderedList'>
+    <ul className = 'orderedList'>
         {
             list.map((item)=>{
                 return <li>{item}</li>
             })
         }
-    </ol>
+    </ul>
 )
 
 }

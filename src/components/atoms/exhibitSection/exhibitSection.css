@@ -11,7 +11,13 @@
     width:30rem;
     font-size: 1.6rem;
     @media(max-width:376px){
-        font-size:1.4rem;
+        font-size:1.3rem;
+      }
+      @media(max-width:415px){
+        width:24rem;
+      }
+      @media(max-width:500px){
+        width:20rem;
       }
     @media(min-width:1200px){
         font-size:2rem;
@@ -26,9 +32,11 @@
     font-size: 1rem;
     margin-bottom: 1.5rem;
     white-space: pre-wrap;
-   
+    text-wrap: wrap;
+}
 
-  
+.exhibitText li{
+    
 }
 
 @media (min-width: 490px){
