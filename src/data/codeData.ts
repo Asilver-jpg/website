@@ -12,7 +12,7 @@ export const codeData: PageExhibitProps = {
         },
         {
             title: "Hackable File Server",
-            text:`For Unshut's Black Box experience, I built an interactive terminal system where users, guided over Zoom, hack into a simulated server to uncover hidden documents—only to be counterhacked by an invading entity. Starting with a raw Google Drive of 80+ folders and a minimal script, I built a tool to convert .docx files to HTML and map the file structure for use in the simulation. I then designed a 1960s-inspired terminal UI, implemented input logic based on the narrative, and produced a concluding video. The prototype was approved without notes and handed directly to backend. Built with TypeScript, React, and Redux.`,
+            text:`For Unshut's Black Box experience, I built an interactive terminal system where users, guided over Zoom, hack into a simulated server to uncover hidden documents—only to be counterhacked by an invading entity. Starting with a raw Google Drive of 80+ folders and a minimal script, I built a tool to convert .docx files to HTML and map the file structure for use in the simulation. I then designed a 1960s-inspired terminal UI, implemented input logic based on the narrative, and produced a concluding video. The prototype was approved without notes and handed directly to backend. Built with TypeScript, React, and Redux. This will not work in mobile and is designed to be used while in fullscreen.`,
             images:['/assets/images/code/fileserver.PNG'],
             link:{dest:'/unshut-file-server', name:'Go'}
         },
